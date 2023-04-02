@@ -1,7 +1,10 @@
 # Network/Security write-ups
 
-##  - Setting up a basic network via Linux in VirtualBox
+##  - Understanding this repo
     - CTFS
+    - Simulating networks
+    - Kubernetes possibility(?) :O
+    - Mostly virtualization sims
 
 
 ### UPDATES:
