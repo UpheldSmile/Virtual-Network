@@ -1,3 +1,14 @@
+# Function to generate a random password
+function Get-RandomPassword {
+    param (
+        [int]$length = 12
+    )
+
+    $characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_=+'
+    $randomPassword = -join (Get-Random -Count $length -InputObject $characters)
+    return $randomPassword
+}
+
 # Read names from the text file
 $names = Get-Content -Path ".\names.txt"
 
@@ -10,7 +21,7 @@ foreach ($name in $names) {
     $username = $name.Replace(" ", "").ToLower()
 
     # Specify other user details (you may customize these)
-    $password = "P@ssw0rd"  # Set a default password (change this)
+    $password = Get-RandomPassword -length 12  # Generate a random password
     $displayName = $name
     $givenName = ($name -split ' ')[0]
     $surName = ($name -split ' ')[-1]
@@ -18,5 +29,5 @@ foreach ($name in $names) {
     # Create the user account
     New-ADUser -SamAccountName $username -UserPrincipalName "$username@YourDomain.com" -Name $displayName -GivenName $givenName -Surname $surName -DisplayName $displayName -Enabled $true -Path $ouPath -AccountPassword (ConvertTo-SecureString -AsPlainText $password -Force)
 
-    Write-Host "User '$username' created."
+    Write-Host "User '$username' created with a random password."
 }
