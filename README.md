@@ -8,7 +8,7 @@
        Create virtualised enterprise networks and understand staging servers, likely will try GNS3 as well if I have the motivation ...
        
     - AWS
-        As I'm doing my AWS SAA, I will likelyt dive into playing around with Lambda functions and see what we can tinker.
+        As I'm doing my AWS SAA, I will likely dive into playing around with Lambda functions and see what we can tinker.
 
 
 ### UPDATES:
