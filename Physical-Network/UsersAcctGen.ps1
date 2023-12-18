@@ -1,5 +1,5 @@
 # Read names from the text file
-$names = Get-Content -Path "C:\Path\To\Your\File.txt"
+$names = Get-Content -Path ".\names.txt"
 
 # Specify the OU (Organizational Unit) where you want to create the users
 $ouPath = "OU=Users,DC=YourDomain,DC=com"
