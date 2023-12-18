@@ -12,15 +12,13 @@ function Get-RandomPassword {
 # Read names from the text file
 $names = Get-Content -Path ".\names.txt"
 
-# Specify the OU (Organizational Unit) where you want to create the users
+# Specify the OU where you want to create the users
 $ouPath = "OU=Users,DC=YourDomain,DC=com"
 
-# Loop through each name and create a user account
 foreach ($name in $names) {
-    # Generate a username based on the name (you may customize this part)
+    # Generate a username based on the name
     $username = $name.Replace(" ", "").ToLower()
 
-    # Specify other user details (you may customize these)
     $password = Get-RandomPassword -length 12  # Generate a random password
     $displayName = $name
     $givenName = ($name -split ' ')[0]
