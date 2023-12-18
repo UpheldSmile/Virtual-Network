@@ -18,5 +18,5 @@
 To replicate working on-premise network that demonstrates core knowledge of a network, key goals is to demonstrate how a core > distribution > and access layer switch will work for edge devices and key infrastructure within a network whilst demonstrating IAM capabilities and following best practices from a cyber security sector :)
 
 ### Notes: 
-Write-up of cloud infrastructure is my planned goal too, likely to be in AWS
+Write-up of cloud infrastructure is my planned goal too, likely to be in AWS <br>
 AWS put on hold as of 2024, focussing on AD management
