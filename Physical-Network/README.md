@@ -14,13 +14,13 @@ Mount the Windows Server 2019 ISO to the VM and proceed with the installation.
 
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/3d2db371-9e66-4462-bfe8-68d6d9e21c7e)
 
-<h2>3. Configuring Network Adapters</h2>
+<h2>2. Configuring Network Adapters</h2>
 
 In the VM settings, add two network adapters:
 Adapter 1 (NAT): Connects the VM to the external network for internet access. Configure this as a NAT adapter.
 Adapter 2 (Internal): Enables VM-to-VM communication within the domain. This adapter will be used exclusively for internal traffic.
 
-<h2>5. Installing Active Directory</h2>
+<h2>3. Installing Active Directory</h2>
 After the Windows Server installation, launch the Server Manager.
 
 Install the Active Directory Domain Services (AD DS) role.
@@ -33,11 +33,11 @@ Configure the domain and provide necessary information.
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/f207493c-8808-4966-af49-133b581dd8c5)
 
 
-<h2>7. Verifying Connectivity</h2>
+<h2>4. Verifying Connectivity</h2>
 Ensure that Adapter 1 (NAT) allows the server to access the internet.
 Verify that Adapter 2 (Internal) allows communication between VMs within the domain.
 
-<h2>9. Testing Active Directory</h2>
+<h2>5. Testing Active Directory</h2>
 Create virtual machines to join the domain and test Active Directory functionality.
 Configure DNS settings on each VM to point to the domain controller.
 
