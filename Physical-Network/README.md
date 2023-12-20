@@ -15,23 +15,22 @@ Mount the Windows Server 2019 ISO to the VM and proceed with the installation.
 
 <br>
 3. Configuring Network Adapters
-<br>
+
 In the VM settings, add two network adapters:
-<br>
+
 Adapter 1 (NAT): Connects the VM to the external network for internet access. Configure this as a NAT adapter.
-<br>
+
 Adapter 2 (Internal): Enables VM-to-VM communication within the domain. This adapter will be used exclusively for internal traffic.
-<br>
+
 5. Installing Active Directory
-<br>
 After the Windows Server installation, launch the Server Manager.
-<br>
+
 Install the Active Directory Domain Services (AD DS) role.
-<br>
+
 Follow the AD DS installation wizard to promote the server to a domain controller.
-<br>
+
 Configure the domain and provide necessary information.
-<br>
+
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/e55b7046-b36c-4100-aa4d-f0443e00207d)
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/f207493c-8808-4966-af49-133b581dd8c5)
 
