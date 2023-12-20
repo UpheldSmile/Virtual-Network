@@ -37,10 +37,10 @@ Configure the domain and provide necessary information.
 Ensure that Adapter 1 (NAT) allows the server to access the internet.
 Verify that Adapter 2 (Internal) allows communication between VMs within the domain.
 
-<h2>5. Testing Active Directory</h2>
 Create virtual machines to join the domain and test Active Directory functionality.
 Configure DNS settings on each VM to point to the domain controller.
 <br><br>
+
 <h2>Active Directory Management</h2>
 •	In the ADUC console, expand the tree to locate the domain to which the OU will be added.
 <br><br>
