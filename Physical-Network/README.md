@@ -35,3 +35,5 @@ Verify that Adapter 2 (Internal) allows communication between VMs within the dom
 9. Testing Active Directory
 Create virtual machines to join the domain and test Active Directory functionality.
 Configure DNS settings on each VM to point to the domain controller.
+![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/6404b732-846e-4cd7-be4e-e3c3e86f284d)
+
