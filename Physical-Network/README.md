@@ -51,7 +51,7 @@ Configure DNS settings on each VM to point to the domain controller.
 •	Right-click on the newly created "Admins" OU and select "Delegate Control."
 •	Follow the wizard to delegate administrative permissions to specific users or groups responsible for administering the OU.
 
-•	Moving Administrators to the New OU:
+<b>Moving Administrators to the New OU: </b>
 
 •	Identify the users who have administrative privileges.
 •	Right-click on each user, navigate to "Move," and select the "Admins" OU as the destination.
