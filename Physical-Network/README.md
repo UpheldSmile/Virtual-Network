@@ -42,23 +42,23 @@ Create virtual machines to join the domain and test Active Directory functionali
 Configure DNS settings on each VM to point to the domain controller.
 <br>
 •	In the ADUC console, expand the tree to locate the domain to which the OU will be added.
-
+<br><br>
 <b>Creating the Organizational Unit:</b>
 
 •	Right-click on the domain name and choose "New" > "Organizational Unit."
 •	Provide a meaningful name for the OU, such as "Admins," and press Enter.
-<br>
+<br><br>
 <b>Delegating Administrative Permissions:</b>
 
 •	Right-click on the newly created "Admins" OU and select "Delegate Control."
 •	Follow the wizard to delegate administrative permissions to specific users or groups responsible for administering the OU.
 
-<br>
+<br><br>
 <b>Moving Administrators to the New OU: </b>
 
 •	Identify the users who have administrative privileges.
 •	Right-click on each user, navigate to "Move," and select the "Admins" OU as the destination.
-
+<br><br>
 The successful creation of the "Admins" OU contributes to the organization's security posture by implementing a best practice for managing administrative accounts. This segregation promotes effective access control and simplifies the process of monitoring and maintaining user accounts with elevated privileges.
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/6404b732-846e-4cd7-be4e-e3c3e86f284d)
 
