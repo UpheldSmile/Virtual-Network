@@ -1,5 +1,7 @@
 <h1>Introduction</h1>
 
+![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/e72a5107-ba59-473c-804a-a7bdfbf21cc8)
+
 <b>Creation of DHCP, File, Secondary DC, WDS, WSUS, Print, FTP servers coming eventually - will do OU, Users, Groups and GPO soon too [Dec 2023]</b>
 
 This guide outlines the steps I took to create a Windows Server 2019 environment for practicing Active Directory (AD) on virtual machines.
