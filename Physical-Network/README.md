@@ -1,6 +1,7 @@
 <h1>Introduction</h1>
 
-![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/e72a5107-ba59-473c-804a-a7bdfbf21cc8)
+![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/2147f629-1b16-4569-a52f-7623802b7cc5)
+
 
 <b>Creation of DHCP, File, Secondary DC, WDS, WSUS, Print, FTP servers coming eventually - will do OU, Users, Groups and GPO soon too [Dec 2023]</b>
 
