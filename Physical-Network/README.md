@@ -11,6 +11,7 @@ This guide outlines the steps I took to create a Windows Server 2019 environment
 Download the Windows Server 2019 ISO from the official Microsoft website.
 Create a new virtual machine (VM) using your preferred virtualization software (e.g., Hyper-V, VMware).
 Mount the Windows Server 2019 ISO to the VM and proceed with the installation.
+
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/3d2db371-9e66-4462-bfe8-68d6d9e21c7e)
 
 <h2>3. Configuring Network Adapters</h2>
