@@ -41,21 +41,21 @@ Verify that Adapter 2 (Internal) allows communication between VMs within the dom
 Create virtual machines to join the domain and test Active Directory functionality.
 Configure DNS settings on each VM to point to the domain controller.
 
-In the ADUC console, expand the tree to locate the domain to which the OU will be added.
-Creating the Organizational Unit:
+•	In the ADUC console, expand the tree to locate the domain to which the OU will be added.
+•	Creating the Organizational Unit:
 
-Right-click on the domain name and choose "New" > "Organizational Unit."
-Provide a meaningful name for the OU, such as "Admins," and press Enter.
-<br>
-Delegating Administrative Permissions:
+•	Right-click on the domain name and choose "New" > "Organizational Unit."
+•	Provide a meaningful name for the OU, such as "Admins," and press Enter.
+•	Delegating Administrative Permissions:
 
-Right-click on the newly created "Admins" OU and select "Delegate Control."
-Follow the wizard to delegate administrative permissions to specific users or groups responsible for administering the OU.
-<br>
-Moving Administrators to the New OU:
+•	Right-click on the newly created "Admins" OU and select "Delegate Control."
+•	Follow the wizard to delegate administrative permissions to specific users or groups responsible for administering the OU.
 
-Identify the users who have administrative privileges.
-Right-click on each user, navigate to "Move," and select the "Admins" OU as the destination.
+•	Moving Administrators to the New OU:
+
+•	Identify the users who have administrative privileges.
+•	Right-click on each user, navigate to "Move," and select the "Admins" OU as the destination.
+
 
 The successful creation of the "Admins" OU contributes to the organization's security posture by implementing a best practice for managing administrative accounts. This segregation promotes effective access control and simplifies the process of monitoring and maintaining user accounts with elevated privileges.
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/6404b732-846e-4cd7-be4e-e3c3e86f284d)
