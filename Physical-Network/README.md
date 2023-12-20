@@ -40,7 +40,7 @@ Verify that Adapter 2 (Internal) allows communication between VMs within the dom
 <h2>5. Testing Active Directory</h2>
 Create virtual machines to join the domain and test Active Directory functionality.
 Configure DNS settings on each VM to point to the domain controller.
-<br>
+<br><br>
 •	In the ADUC console, expand the tree to locate the domain to which the OU will be added.
 <br><br>
 <b>Creating the Organizational Unit:</b>
