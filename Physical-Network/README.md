@@ -13,17 +13,25 @@ Create a new virtual machine (VM) using your preferred virtualization software (
 Mount the Windows Server 2019 ISO to the VM and proceed with the installation.
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/3d2db371-9e66-4462-bfe8-68d6d9e21c7e)
 
-
+<br>
 3. Configuring Network Adapters
+<br>
 In the VM settings, add two network adapters:
+<br>
 Adapter 1 (NAT): Connects the VM to the external network for internet access. Configure this as a NAT adapter.
+<br>
 Adapter 2 (Internal): Enables VM-to-VM communication within the domain. This adapter will be used exclusively for internal traffic.
-
+<br>
 5. Installing Active Directory
+<br>
 After the Windows Server installation, launch the Server Manager.
+<br>
 Install the Active Directory Domain Services (AD DS) role.
+<br>
 Follow the AD DS installation wizard to promote the server to a domain controller.
+<br>
 Configure the domain and provide necessary information.
+<br>
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/e55b7046-b36c-4100-aa4d-f0443e00207d)
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/f207493c-8808-4966-af49-133b581dd8c5)
 
@@ -35,5 +43,26 @@ Verify that Adapter 2 (Internal) allows communication between VMs within the dom
 9. Testing Active Directory
 Create virtual machines to join the domain and test Active Directory functionality.
 Configure DNS settings on each VM to point to the domain controller.
+
+
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/6404b732-846e-4cd7-be4e-e3c3e86f284d)
+In the ADUC console, expand the tree to locate the domain to which the OU will be added.
+Creating the Organizational Unit:
+
+Right-click on the domain name and choose "New" > "Organizational Unit."
+Provide a meaningful name for the OU, such as "Admins," and press Enter.
+<br>
+Delegating Administrative Permissions:
+
+Right-click on the newly created "Admins" OU and select "Delegate Control."
+Follow the wizard to delegate administrative permissions to specific users or groups responsible for administering the OU.
+<br>
+Moving Administrators to the New OU:
+
+Identify the users who have administrative privileges.
+Right-click on each user, navigate to "Move," and select the "Admins" OU as the destination.
+<br><br>
+The successful creation of the "Admins" OU contributes to the organization's security posture by implementing a best practice for managing administrative accounts. This segregation promotes effective access control and simplifies the process of monitoring and maintaining user accounts with elevated privileges.
+![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/8b7e286b-5644-4161-a5be-79537287ce58)
+
 
