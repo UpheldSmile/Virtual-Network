@@ -62,6 +62,7 @@ Configure DNS settings on each VM to point to the domain controller.
 The successful creation of the "Admins" OU contributes to the organization's security posture by implementing a best practice for managing administrative accounts. This segregation promotes effective access control and simplifies the process of monitoring and maintaining user accounts with elevated privileges.
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/6404b732-846e-4cd7-be4e-e3c3e86f284d)
 
+<h2>Making GPO's</h2>
 ![image](https://github.com/UpheldSmile/Virtual-Network/assets/49825639/8b7e286b-5644-4161-a5be-79537287ce58)
 
 
