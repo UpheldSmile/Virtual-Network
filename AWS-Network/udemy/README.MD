@@ -4,7 +4,9 @@
 As of May 7th I have 
 
 24 DAYS IN MAY
+<br>
 30 DAYS IN JUNE
+<br>
 19 DAYS IN JULY
 
 DAYS TOTAL = 73 DAYS OF STUDY
